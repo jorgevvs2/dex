@@ -1,0 +1,245 @@
+.pokedex{
+    width: 60rem;
+    height: 40rem;
+    background: #b81717;
+
+    display: flex;
+    gap: 2.5rem;
+
+    font-family: 'Poppins', sans-serif;
+
+    box-shadow: 4px 4px 5px black ;
+    
+    border-radius: 2rem;
+    align-self: center;
+
+    padding: 4rem 4rem;
+
+    position: relative;
+
+}
+
+.button{
+    display: inline;
+    position: absolute;
+}
+
+.bluebutton{
+
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+
+    position:relative;
+
+    display: flex;
+
+    top: -2rem;
+    right: 13rem;
+
+    border-radius: 100px;
+
+    background: linear-gradient(#307bfb 0%, #0530e5 80%);	
+    box-shadow: -3px 2px #001c91;
+}
+
+
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+
+    input{
+        height: 2rem;
+        width: 100%;
+
+        border: none;
+        outline: none;
+        border-radius: .5rem;
+        
+        padding: .5rem;
+        font-size: 20px;
+        text-align: center;
+    }
+    button{
+        width: 100px;
+        position: absolute;
+        top: 40px;
+
+        border-radius: 5px;
+        border: none;
+
+        cursor: pointer;
+    }   
+}
+
+
+.middle{
+    background-color: black;
+    width: 6px;
+    height: 100%;
+    position: absolute;
+
+    left: 48%;
+    top: 0;
+}
+
+.id{
+    width: 50px;
+    position: absolute;
+    bottom: 35.5%;
+    left: 10%;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px black ;
+    background-color: rgb(30, 95, 19);
+}
+
+.control{
+    position: absolute;
+    bottom: 12%;
+    right: 55%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100px;
+
+    height: 100px;
+
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navButton{
+    position: relative;
+    background-color: black;
+    height: 33%;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.blank{
+    background: none;
+    border: none;
+    cursor:default;
+}
+
+.leftTriangle {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    border-left: solid 10px transparent; 
+    border-right: solid 10px transparent; 
+    border-bottom: solid 15px #777;
+    transform: rotate(-90deg);
+  }
+
+.centerCircle {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+
+}   
+
+.rightTriangle {
+    position: absolute;
+    top: 7px;
+    right: 4px;
+    border-left: solid 10px transparent; 
+    border-right: solid 10px transparent; 
+    border-bottom: solid 15px #777;
+    transform: rotate(90deg);
+}
+
+.downTriangle {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    border-left: solid 10px transparent; 
+    border-right: solid 10px transparent; 
+    border-bottom: solid 15px #777;
+    transform: rotate(180deg);
+}
+
+.upTriangle {
+    position: absolute;
+    bottom: 7px;
+    left: 4px;
+    border-left: solid 10px transparent; 
+    border-right: solid 10px transparent; 
+    border-bottom: solid 15px #777;
+}
+
+.blueDeco{
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+
+    border: solid .5px black;
+
+    border-radius: 2px;
+
+    bottom: 37%;
+
+    right: 67%;
+
+    position: absolute;
+
+    div{
+        background-color: rgb(17, 17, 17);
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+
+        box-shadow: 1px 1px 1px black;
+
+        position: relative;
+        top: -14px;
+        left: 120px;
+    }
+}
+
+.redDeco{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(226, 217, 217);
+
+    border: solid .1px black;
+
+
+    border-radius: 2px;
+
+    bottom: 37%;
+    left: 20%;
+
+    position: absolute;
+}
+
+.circle{
+    position: relative;
+    background-color: #777;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    left: 25%;
+}

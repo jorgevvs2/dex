@@ -1,0 +1,37 @@
+.typediv{
+    background-color: rgb(212, 212, 212);
+    margin-top: 3rem;
+    width: 25rem;
+    height: 10rem;
+
+    box-shadow: 2px 2px 2px black;
+
+    border-radius: 1rem;
+    padding: 1rem;
+
+    font-size: 10px;
+}
+
+
+.typesContainer{
+    height: 50%;
+    display: flexbox;
+
+    span{
+        padding: 8px 4rem;
+        margin-top: 5px;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-left: 3px;
+        display: inline-block;
+    }
+}
+
+
+.grass{
+    background-color: #9BCC50;
+}
+
+.poison{
+    background-color: purple;
+}

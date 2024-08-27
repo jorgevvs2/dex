@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: url(/background.jpg) no-repeat center fixed;
+  background-size: cover;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  
+}
+
+.grass{
+  background-color: #9BCC50;
+  color: black;
+}
+
+.poison{
+  background-color: purple;
+  color: white;
+}
+
+.fire{
+  background-color: orangered;
+  color: white;
+}
+
+.psychic{
+  background-color: plum;
+}
+
+.ice{
+  background-color: rgb(57, 192, 192);
+  color: black;
+}
+
+.flying{
+  background: linear-gradient(180deg, rgba(26,156,171,1) 0%, rgba(98,98,98,1) 71%);
+  color: white;
+}
+
+.fighting{
+  background-color: #C22323;
+}
+
+.electric{
+  background-color: rgb(238,213,53);
+}
+
+.rock{
+  background-color: rgb(163,140,33);
+}
+
+.dragon{
+  background: linear-gradient(180deg, rgb(83,164,207) 0%, rgb(241,110,87) 71%);
+}
+
+.fairy{
+  background-color: rgb(253,185,233);
+}
+
+.ghost{
+  background-color: rgb(123,98,163);
+}
+
+.bug{
+  background-color: rgb(114,159,63);
+  color: white;
+}
+
+.dark{
+  background-color: rgb(112,112,112);
+}
+
+.ground{
+  background: linear-gradient(180deg, rgb(247,222,63) 0%, rgb(171,152,66) 71%);
+  
+} 
+
+.steel{
+  background-color: rgb(158,183,184);
+}
+
+.normal{
+  background-color: rgb(164,172,175);
+}
+
+.water{
+  background-color: rgb(69,146,196);
+  color: white;
+}
